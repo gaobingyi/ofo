@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF181C18" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/equery_dialog_title" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" >
+               
+        <EditText
+	        android:id="@+id/edittext_equery_id"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="50dp"
+	        android:layout_marginRight="50dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp"
+	        android:ems="10"
+	        android:inputType="number"
+	        android:textColor="#FFECC531"
+	        android:hint="请输入车牌号"
+	        android:background="@drawable/shape_equery_dialog_button"
+	        android:textSize="30sp"
+	        android:gravity="center" >
+        
+        <requestFocus />
+    </EditText>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button_equery_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询"
+            android:textColor="#FFECC531"
+            android:textSize="20sp"
+            android:background="#FF181C18" />
+        
+    </LinearLayout>
+
+</LinearLayout>
